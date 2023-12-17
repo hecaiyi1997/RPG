@@ -1,0 +1,142 @@
+﻿2023-12-17 21:26:25,720 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2023-12-17 21:26:25,736 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2023-12-17 21:26:25,740 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2023-12-17 21:26:25,740 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2023-12-17 21:26:25,740 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2023-12-17 21:26:25,740 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2023-12-17 21:26:25,744 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2023-12-17 21:26:25,858 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2023-12-17 21:26:25,860 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2023-12-17 21:26:25,860 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2023-12-17 21:26:25,860 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2023-12-17 21:26:25,860 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2023-12-17 21:26:25,860 [1] DEBUG Debug - BuySys Init Done. Debug 
+2023-12-17 21:26:25,860 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2023-12-17 21:26:25,862 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2023-12-17 21:26:25,862 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2023-12-17 21:26:25,871 [1] DEBUG Debug - 服务器启动监听127.0.0.1:17666成功 Debug 
+2023-12-17 21:26:25,873 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2023-12-17 21:29:58,633 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2023-12-17 21:29:58,634 [1] DEBUG Debug - 一个客户端链接：127.0.0.1:17666,当前1个客户端在线！ Debug 
+2023-12-17 21:30:04,748 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:04,751 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:10,603 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:10,603 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:16,596 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:16,596 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:22,576 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:22,576 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:28,575 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:28,575 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:34,619 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:34,619 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:38,370 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2023-12-17 21:30:38,425 [1] INFO  Debug - send=RspLogin Debug 
+2023-12-17 21:30:40,589 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:40,589 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:46,568 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:46,568 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:52,614 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:52,614 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:30:58,602 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:30:58,603 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:04,589 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:04,589 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:10,589 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:10,589 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:16,580 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:16,580 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:22,597 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:22,597 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:25,997 [1] DEBUG Debug - All Online Player Calc Power Incress.... Debug 
+2023-12-17 21:31:28,579 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:28,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:34,579 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:34,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:40,591 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:40,591 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:46,582 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:46,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:52,579 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:52,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:31:58,571 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:31:58,572 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:04,584 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:04,584 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:10,584 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:10,584 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:16,622 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:16,622 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:20,900 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqGuide Debug 
+2023-12-17 21:32:20,906 [1] INFO  Debug - send=RspGuide Debug 
+2023-12-17 21:32:22,595 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:22,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:28,583 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:28,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:34,584 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:34,586 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:40,587 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:40,587 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:46,622 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:46,622 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:52,610 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:52,610 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:32:58,598 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:32:58,598 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:04,622 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:04,624 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:05,662 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqFBFight Debug 
+2023-12-17 21:33:05,667 [1] INFO  Debug - send=RspFBFight Debug 
+2023-12-17 21:33:10,585 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:10,585 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:16,602 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:16,602 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:22,593 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:22,593 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:28,587 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:28,588 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:34,584 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:34,584 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:40,575 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:40,576 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:46,581 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:46,581 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:52,582 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:52,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:33:58,565 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:33:58,565 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:04,566 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:04,566 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:10,601 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:10,602 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:16,582 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:16,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:22,572 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:22,572 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:28,607 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:28,607 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:34,604 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:34,605 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:40,602 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:40,602 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:46,604 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:46,604 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:52,577 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:52,577 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:34:58,579 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:34:58,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:35:04,624 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:35:04,625 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:35:10,584 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:35:10,584 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:35:16,578 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:35:16,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:35:22,612 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:35:22,613 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:35:28,613 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:35:28,613 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:35:34,596 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-17 21:35:34,596 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-17 21:35:34,722 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2023-12-17 21:35:34,724 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2023-12-17 21:35:34,725 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 

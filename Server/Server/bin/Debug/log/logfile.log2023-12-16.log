@@ -1,0 +1,565 @@
+﻿2023-12-16 15:02:36,054 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2023-12-16 15:02:36,070 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2023-12-16 15:02:36,072 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2023-12-16 15:02:36,072 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2023-12-16 15:02:36,075 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2023-12-16 15:02:36,075 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2023-12-16 15:02:36,077 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2023-12-16 15:02:36,084 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2023-12-16 15:02:36,085 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2023-12-16 15:02:36,086 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2023-12-16 15:02:36,086 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2023-12-16 15:02:36,087 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2023-12-16 15:02:36,087 [1] DEBUG Debug - BuySys Init Done. Debug 
+2023-12-16 15:02:36,087 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2023-12-16 15:02:36,087 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2023-12-16 15:02:36,088 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2023-12-16 15:02:36,102 [1] DEBUG Debug - 服务器启动监听127.0.0.1:17666成功 Debug 
+2023-12-16 15:02:36,102 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2023-12-16 15:04:09,561 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2023-12-16 15:04:09,561 [1] DEBUG Debug - 一个客户端链接：127.0.0.1:17666,当前1个客户端在线！ Debug 
+2023-12-16 15:04:15,266 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2023-12-16 15:04:15,312 [1] ERROR Debug - acc:WWW Debug 
+2023-12-16 15:04:15,312 [1] ERROR Debug - pass:222 Debug 
+2023-12-16 15:04:15,353 [1] ERROR Debug - Query PlayerData By Acct&Pass Error:MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'darkgod.account' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.<ReadPacketAsync>d__30.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.NativeDriver.<GetResultAsync>d__45.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<GetResultAsync>d__85.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<NextResultAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 DBMgr.QueryPlayerData(String acct, String pass) 位置 C:\Users\小米\Downloads\U3D-DarkGod-master\U3D-DarkGod-master\Server\Server\DBMgr.cs:行号 46 Debug 
+2023-12-16 15:04:15,382 [1] ERROR Debug - Insert PlayerData Error:MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'darkgod.account' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.<ReadPacketAsync>d__30.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.NativeDriver.<GetResultAsync>d__45.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<GetResultAsync>d__85.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<NextResultAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteNonQueryAsync>d__100.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 DBMgr.InsertNewAcctData(String acct, String pass, PlayerData pd) 位置 C:\Users\小米\Downloads\U3D-DarkGod-master\U3D-DarkGod-master\Server\Server\DBMgr.cs:行号 215 Debug 
+2023-12-16 15:04:15,385 [1] INFO  Debug - send=RspLogin Debug 
+2023-12-16 15:04:15,596 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:04:15,596 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:04:17,015 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqRename Debug 
+2023-12-16 15:04:17,025 [1] ERROR Debug - Query Name State Error:MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'darkgod.account' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.<ReadPacketAsync>d__30.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.NativeDriver.<GetResultAsync>d__45.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<GetResultAsync>d__85.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<NextResultAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 DBMgr.QueryNameData(String name) 位置 C:\Users\小米\Downloads\U3D-DarkGod-master\U3D-DarkGod-master\Server\Server\DBMgr.cs:行号 230 Debug 
+2023-12-16 15:04:17,038 [1] ERROR Debug - Update PlayerData Error:MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'darkgod.account' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.<ReadPacketAsync>d__30.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.NativeDriver.<GetResultAsync>d__45.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<GetResultAsync>d__85.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<NextResultAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteNonQueryAsync>d__100.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 DBMgr.UpdatePlayerData(Int32 id, PlayerData playerData) 位置 C:\Users\小米\Downloads\U3D-DarkGod-master\U3D-DarkGod-master\Server\Server\DBMgr.cs:行号 290 Debug 
+2023-12-16 15:04:17,039 [1] INFO  Debug - send=RspRename Debug 
+2023-12-16 15:04:21,571 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:04:21,572 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:04:27,594 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:04:27,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:04:33,580 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:04:33,581 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:04:36,699 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2023-12-16 15:04:36,711 [1] ERROR Debug - Update PlayerData Error:MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'darkgod.account' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.<ReadPacketAsync>d__30.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.NativeDriver.<GetResultAsync>d__45.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<GetResultAsync>d__85.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.Driver.<NextResultAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.<ExecuteNonQueryAsync>d__100.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 DBMgr.UpdatePlayerData(Int32 id, PlayerData playerData) 位置 C:\Users\小米\Downloads\U3D-DarkGod-master\U3D-DarkGod-master\Server\Server\DBMgr.cs:行号 290 Debug 
+2023-12-16 15:04:36,712 [1] ERROR Debug - Update offline time error Debug 
+2023-12-16 15:04:36,712 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2023-12-16 15:04:36,713 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2023-12-16 15:12:24,076 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2023-12-16 15:12:24,092 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2023-12-16 15:12:24,095 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2023-12-16 15:12:24,096 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2023-12-16 15:12:24,098 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2023-12-16 15:12:24,098 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2023-12-16 15:12:24,100 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2023-12-16 15:12:24,105 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2023-12-16 15:12:24,106 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2023-12-16 15:12:24,107 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2023-12-16 15:12:24,107 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2023-12-16 15:12:24,107 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2023-12-16 15:12:24,107 [1] DEBUG Debug - BuySys Init Done. Debug 
+2023-12-16 15:12:24,107 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2023-12-16 15:12:24,108 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2023-12-16 15:12:24,108 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2023-12-16 15:12:24,118 [1] DEBUG Debug - 服务器启动监听127.0.0.1:17666成功 Debug 
+2023-12-16 15:12:24,118 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2023-12-16 15:12:38,831 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2023-12-16 15:12:38,831 [1] DEBUG Debug - 一个客户端链接：127.0.0.1:17666,当前1个客户端在线！ Debug 
+2023-12-16 15:12:44,613 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:12:44,615 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:12:47,501 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2023-12-16 15:12:47,553 [1] INFO  Debug - send=RspLogin Debug 
+2023-12-16 15:12:50,601 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:12:50,601 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:12:51,036 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqRename Debug 
+2023-12-16 15:12:51,049 [1] INFO  Debug - send=RspRename Debug 
+2023-12-16 15:12:56,576 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:12:56,576 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:02,568 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:13:02,568 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:05,155 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqGuide Debug 
+2023-12-16 15:13:05,160 [1] INFO  Debug - send=PshTaskPrgs Debug 
+2023-12-16 15:13:05,170 [1] INFO  Debug - send=RspGuide Debug 
+2023-12-16 15:13:08,592 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:13:08,592 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:11,029 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqFBFight Debug 
+2023-12-16 15:13:11,034 [1] INFO  Debug - send=RspFBFight Debug 
+2023-12-16 15:13:14,594 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:13:14,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:20,586 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:13:20,587 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:26,619 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:13:26,619 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:32,601 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:13:32,601 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:38,591 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:13:38,591 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:44,580 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:13:44,580 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:13:49,288 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2023-12-16 15:13:49,292 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2023-12-16 15:13:49,293 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2023-12-16 15:16:13,099 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2023-12-16 15:16:13,210 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2023-12-16 15:16:13,218 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2023-12-16 15:16:13,233 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2023-12-16 15:16:13,240 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2023-12-16 15:16:13,241 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2023-12-16 15:16:13,247 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2023-12-16 15:16:13,374 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2023-12-16 15:16:13,398 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2023-12-16 15:16:13,408 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2023-12-16 15:16:13,410 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2023-12-16 15:16:13,411 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2023-12-16 15:16:13,416 [1] DEBUG Debug - BuySys Init Done. Debug 
+2023-12-16 15:16:13,417 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2023-12-16 15:16:13,418 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2023-12-16 15:16:13,419 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2023-12-16 15:16:13,584 [1] DEBUG Debug - 服务器启动监听127.0.0.1:17666成功 Debug 
+2023-12-16 15:16:13,617 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2023-12-16 15:16:25,850 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2023-12-16 15:16:25,851 [1] DEBUG Debug - 一个客户端链接：127.0.0.1:17666,当前1个客户端在线！ Debug 
+2023-12-16 15:16:31,710 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:16:31,729 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:16:36,534 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2023-12-16 15:16:36,644 [1] INFO  Debug - send=RspLogin Debug 
+2023-12-16 15:16:37,601 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:16:37,602 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:16:43,601 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:16:43,607 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:16:49,588 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:16:49,588 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:16:55,617 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:16:55,617 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:17:01,599 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:17:01,599 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:17:07,644 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:17:07,646 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:17:08,193 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2023-12-16 15:17:08,204 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2023-12-16 15:17:08,204 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
+2023-12-16 15:17:46,116 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2023-12-16 15:17:46,139 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2023-12-16 15:17:46,141 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2023-12-16 15:17:46,142 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2023-12-16 15:17:46,143 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2023-12-16 15:17:46,143 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2023-12-16 15:17:46,147 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2023-12-16 15:17:46,166 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2023-12-16 15:17:46,168 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2023-12-16 15:17:46,168 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2023-12-16 15:17:46,169 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2023-12-16 15:17:46,170 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2023-12-16 15:17:46,170 [1] DEBUG Debug - BuySys Init Done. Debug 
+2023-12-16 15:17:46,171 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2023-12-16 15:17:46,172 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2023-12-16 15:17:46,172 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2023-12-16 15:17:46,200 [1] DEBUG Debug - 服务器启动监听127.0.0.1:17666成功 Debug 
+2023-12-16 15:17:46,201 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2023-12-16 15:17:56,544 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2023-12-16 15:17:56,544 [1] DEBUG Debug - 一个客户端链接：127.0.0.1:17666,当前1个客户端在线！ Debug 
+2023-12-16 15:18:02,648 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:02,660 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:08,574 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:08,575 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:09,853 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2023-12-16 15:18:10,043 [1] INFO  Debug - send=RspLogin Debug 
+2023-12-16 15:18:13,868 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqRename Debug 
+2023-12-16 15:18:13,878 [1] INFO  Debug - send=RspRename Debug 
+2023-12-16 15:18:14,647 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:14,648 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:20,611 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:20,611 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:26,608 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:26,608 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:32,609 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:32,609 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:35,433 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqGuide Debug 
+2023-12-16 15:18:35,438 [1] INFO  Debug - send=PshTaskPrgs Debug 
+2023-12-16 15:18:35,443 [1] INFO  Debug - send=RspGuide Debug 
+2023-12-16 15:18:38,596 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:38,599 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:41,838 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqFBFight Debug 
+2023-12-16 15:18:41,841 [1] INFO  Debug - send=RspFBFight Debug 
+2023-12-16 15:18:44,622 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:44,624 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:50,567 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:50,568 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:18:56,606 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:18:56,606 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:02,576 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:02,581 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:08,603 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:08,604 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:14,599 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:14,599 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:20,599 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:20,599 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:26,571 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:26,573 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:32,612 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:32,614 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:38,612 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:38,613 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:44,617 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:44,617 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:50,605 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:50,605 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:19:56,588 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:19:56,588 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:02,595 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:02,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:08,594 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:08,594 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:14,588 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:14,588 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:20,582 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:20,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:26,587 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:26,587 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:32,595 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:32,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:38,595 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:38,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:44,589 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:44,589 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:50,594 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:50,594 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:20:56,604 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:20:56,604 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:02,593 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:02,594 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:08,578 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:08,580 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:14,623 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:14,624 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:20,609 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:20,609 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:26,598 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:26,598 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:32,583 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:32,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:38,620 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:38,620 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:44,609 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:44,609 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:50,593 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:50,593 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:21:56,606 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:21:56,606 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:22:02,558 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:22:02,558 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 15:22:08,592 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 15:22:08,592 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:11:50,840 [1] DEBUG Debug - DBMgr Init Done. Debug 
+2023-12-16 16:11:50,865 [1] DEBUG Debug - GuideCfg Init Done. Debug 
+2023-12-16 16:11:50,869 [1] DEBUG Debug - StrongCfg Init Done. Debug 
+2023-12-16 16:11:50,871 [1] DEBUG Debug - TaskRewardCfg Init Done. Debug 
+2023-12-16 16:11:50,874 [1] DEBUG Debug - MapCfg Init Done. Debug 
+2023-12-16 16:11:50,874 [1] DEBUG Debug - CfgSvc Init Done. Debug 
+2023-12-16 16:11:50,875 [1] DEBUG Debug - TimerSvc Init Done. Debug 
+2023-12-16 16:11:51,090 [1] DEBUG Debug - CacheSvc Init Done. Debug 
+2023-12-16 16:11:51,090 [1] DEBUG Debug - LoginSys Init Done. Debug 
+2023-12-16 16:11:51,090 [1] DEBUG Debug - GuideSys Init Done. Debug 
+2023-12-16 16:11:51,095 [1] DEBUG Debug - StrongSys Init Done. Debug 
+2023-12-16 16:11:51,095 [1] DEBUG Debug - ChatSys Init Done. Debug 
+2023-12-16 16:11:51,095 [1] DEBUG Debug - BuySys Init Done. Debug 
+2023-12-16 16:11:51,095 [1] DEBUG Debug - PowerSys Init Done. Debug 
+2023-12-16 16:11:51,095 [1] DEBUG Debug - TaskSys Init Done. Debug 
+2023-12-16 16:11:51,095 [1] DEBUG Debug - FubenSys Init Done. Debug 
+2023-12-16 16:11:51,128 [1] DEBUG Debug - 服务器启动监听127.0.0.1:17666成功 Debug 
+2023-12-16 16:11:51,130 [1] DEBUG Debug - NetSvc Init Done. Debug 
+2023-12-16 16:42:12,869 [1] DEBUG Debug - SessionID:1 Client Connect Debug 
+2023-12-16 16:42:12,870 [1] DEBUG Debug - 一个客户端链接：127.0.0.1:17666,当前1个客户端在线！ Debug 
+2023-12-16 16:42:18,774 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:42:18,780 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:42:24,592 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:42:24,593 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:42:30,597 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:42:30,597 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:42:36,601 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:42:36,602 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:42:42,599 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:42:42,599 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:42:48,606 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:42:48,606 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:42:54,610 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:42:54,611 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:00,607 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:00,607 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:06,595 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:06,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:10,037 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqLogin Debug 
+2023-12-16 16:43:10,132 [1] INFO  Debug - send=RspLogin Debug 
+2023-12-16 16:43:12,589 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:12,589 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:17,151 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqRename Debug 
+2023-12-16 16:43:17,158 [1] INFO  Debug - send=RspRename Debug 
+2023-12-16 16:43:18,570 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:18,570 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:24,605 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:24,605 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:30,583 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:30,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:36,581 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:36,582 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:37,956 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqGuide Debug 
+2023-12-16 16:43:37,961 [1] INFO  Debug - send=RspGuide Debug 
+2023-12-16 16:43:40,349 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqFBFight Debug 
+2023-12-16 16:43:40,353 [1] INFO  Debug - send=RspFBFight Debug 
+2023-12-16 16:43:42,606 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:42,606 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:48,601 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:48,601 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:43:54,594 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:43:54,594 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:00,583 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:00,583 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:06,619 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:06,620 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:12,584 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:12,584 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:18,583 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:18,584 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:24,572 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:24,572 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:30,574 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:30,574 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:36,579 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:36,579 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:42,619 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:42,619 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:48,587 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:48,587 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:44:54,584 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:44:54,585 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:00,573 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:00,573 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:02,045 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqFBFightEnd Debug 
+2023-12-16 16:45:02,050 [1] INFO  Debug - send=PshTaskPrgs Debug 
+2023-12-16 16:45:02,055 [1] INFO  Debug - send=RspFBFightEnd Debug 
+2023-12-16 16:45:06,598 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:06,598 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:10,451 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqFBFight Debug 
+2023-12-16 16:45:10,454 [1] INFO  Debug - send=RspFBFight Debug 
+2023-12-16 16:45:12,568 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:12,569 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:18,566 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:18,566 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:24,600 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:24,600 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:30,595 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:30,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:36,582 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:36,582 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:42,572 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:42,573 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:48,607 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:48,607 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:45:54,595 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:45:54,595 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:46:00,589 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:46:00,589 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:46:06,580 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:46:06,580 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:46:12,582 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:46:12,582 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:46:18,581 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:46:18,582 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:46:24,577 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:46:24,577 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:46:30,573 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:46:30,573 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:46:36,600 [1] DEBUG Debug - SessionID: 1   ===RcvPack CMD:ReqHeartbeat Debug 
+2023-12-16 16:46:36,600 [1] INFO  Debug - send=RspHeartbeat Debug 
+2023-12-16 16:46:36,775 [1] DEBUG Debug - SessionID:1 Client Offline，在线人数：1 Debug 
+2023-12-16 16:46:36,778 [1] DEBUG Debug - Offline Result: SessionID:1  True Debug 
+2023-12-16 16:46:36,779 [1] DEBUG Debug - 一个客户端断开链接，当前总连接数：0 Debug 
